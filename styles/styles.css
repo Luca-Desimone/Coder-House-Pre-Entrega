@@ -209,14 +209,12 @@ body {
   box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); /* Sombra difuminada */
 }
 .contact-content1 {
-  box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); /* Sombra difuminada */
-  width: 20rem;
-  margin: 5px;
-  padding: 5px;
+ 
+  margin: 10px;
+  padding: 10px;
   border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); /* Sombra difuminada */
 }
-
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -244,8 +242,20 @@ body {
 
   text-align: center;
 }
+
 @media (max-width: 767px) {
   .contact-container {
     flex-direction: column; /* Cambia la dirección del eje principal a columna */
   }
+  .contact-container1 {
+    flex-direction: column; /* Cambia la dirección del eje principal a columna */
+    width: 1px !important;
+  }
+  .social-container{
+    display: flex;
+    flex: 1;
+    text-align: center;
+    flex-direction: column;
+  }
+
 }
