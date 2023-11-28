@@ -103,7 +103,7 @@ body {
 }
 /*Estilos de vista de presentacion*/
 .presentacion {
-  box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); /* Sombra difuminada */
+  box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); 
   display: block;
   margin-left: 5rem;
   margin-top: 5rem;
@@ -169,7 +169,7 @@ body {
   .image-container2 {
     display: block;
     text-align: center;
-    margin: 0 auto; /* Centrar el contenedor en pantallas más pequeñas */
+    margin: 0 auto; 
   }
 }
  /*Estilos de vista Proyects*/
@@ -245,14 +245,14 @@ body {
   margin: 10px;
   padding: 10px;
   border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); /* Sombra difuminada */
+  box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); 
 }
 .contact-content1 {
  
   margin: 10px;
   padding: 10px;
   border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); /* Sombra difuminada */
+  box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); 
 }
 .contact-form {
   display: flex;
@@ -284,10 +284,10 @@ body {
 
 @media (max-width: 767px) {
   .contact-container {
-    flex-direction: column; /* Cambia la dirección del eje principal a columna */
+    flex-direction: column; 
   }
   .contact-container1 {
-    flex-direction: column; /* Cambia la dirección del eje principal a columna */
+    flex-direction: column; 
     width: 1px !important;
   }
   .social-container{
