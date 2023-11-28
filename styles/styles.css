@@ -85,7 +85,9 @@ body {
     margin-left: 0;
     width: 100%;
   }
-
+.nav-links{
+  height: 3.5rem;
+}
   .presentacion img {
     position: static;
     width: 100%;
