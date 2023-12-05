@@ -164,6 +164,9 @@ body {
     text-align: center;
     padding-top: 2rem;
   }
+  img{
+    width: 250px;
+  }
 
   .image-container1,
   .image-container2 {
