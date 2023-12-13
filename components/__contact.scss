@@ -1,0 +1,64 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10rem;
+  }
+  
+  .contact-content {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); 
+  }
+  .contact-content1 {
+   
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); 
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-input {
+    margin-bottom: 10px;
+  }
+  
+  .contact-message {
+    height: 200px;
+  }
+  .social-container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  .social-button {
+    display: block;
+    margin-bottom: 10px;
+    padding-top: 3rem;
+  }
+  .texto-gracias {
+    font-weight: bold;
+  
+    text-align: center;
+  }
+  
+  @media (max-width: 767px) {
+    .contact-container {
+      flex-direction: column; 
+    }
+    .contact-container1 {
+      flex-direction: column; 
+      width: 1px !important;
+    }
+    .social-container{
+      display: flex;
+      flex: 1;
+      text-align: center;
+      flex-direction: column;
+    }
+  
+  }

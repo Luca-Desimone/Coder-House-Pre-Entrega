@@ -1,0 +1,37 @@
+@import "../base/mixins";
+
+.about-container {
+    display: flex;
+    box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); 
+    justify-content: space-between;
+    margin: 1rem;
+    p {
+      font-size: 30px;
+    }
+  }
+  
+  .about-content {
+    flex: 1;
+    padding: 2rem;
+    img {
+     @include imagen
+     }
+     
+  }
+  
+  @media (max-width: 767px) {
+    .about-container {
+      flex-direction: column; 
+    }
+  
+    .about-content {
+      padding: 2rem;
+      text-align: center;
+    }
+    .about-content img {
+      margin-left: 0;
+      max-width: 100% ;  
+      height: auto ;
+    }
+  }
+  

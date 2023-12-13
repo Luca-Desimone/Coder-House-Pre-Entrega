@@ -1,0 +1,41 @@
+@import"../base/extends";
+
+.skills{
+ @extend %skillsElementos;
+  }
+  
+  .image-container1 {
+    display: inline-block;
+    padding-top: 5rem;
+    margin: 4.7rem;
+    img{
+      height: 200px;
+     }
+  }
+  
+  
+  .image-container2 {
+    display: inline-block;
+    padding-top: 5rem;
+    margin: 6rem;
+    img{
+      height: 200px;
+     }
+  }
+  
+   @media (max-width: 767px) {
+    .skills {
+      text-align: center;
+      padding-top: 2rem;
+    }
+    img{
+      width: 250px;
+    }
+  
+    .image-container1,
+    .image-container2 {
+      display: block;
+      text-align: center;
+      margin: 0 auto; 
+    }
+  }
