@@ -145,8 +145,26 @@ body {
     height:300px;
   }
 }
+@media (max-width: 1030px) {
+  .presentacion {
+    box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); 
+    display: block;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    width: 90%;
+    height: 580px;
+    padding: 8px;
+    position: relative;
+  }
 
-@media (max-width: 767px) {
+  .presentacion img {
+    left: 30%;
+    bottom: 40px;
+    height:280px;
+  }
+}
+
+@media (max-width: 990px) {
   .presentacion {
     margin-left: 0;
     width: 100%;
@@ -173,8 +191,6 @@ body {
   color: white;
 }
 
-
-
 .image-container1 {
   
   display: inline-block;
@@ -193,6 +209,77 @@ body {
 .image-container2 img{
   height: 200px;
  }
+  @media (max-width: 1690px) {
+  .skills {
+    padding-top: 2rem;
+
+  }
+  img{
+    width: 250px;
+    object-fit: cover;
+  }
+
+  .image-container1{
+  display: inline-block;
+  padding-top: 3rem;
+  margin: 3.5rem;
+}
+  .image-container2 {
+    display: inline-block;
+    padding-top: 3rem;
+    margin: 7rem;
+  }}
+
+  @media (max-width: 1610px) {
+  
+    .image-container1{
+    display: inline-block;
+    padding-top: 3rem;
+    margin: 3.5rem;
+  }
+    .image-container2 {
+      display: inline-block;
+      padding-top: 3rem;
+      margin: 6.5rem;
+    }}
+    @media (max-width: 1450px) {
+  
+      .image-container1{
+      display: inline-block;
+      padding-top: 3rem;
+      margin: 2.5rem;
+    }
+      .image-container2 {
+        display: inline-block;
+        padding-top: 2rem;
+        margin: 6rem;
+      }}
+
+      @media (max-width: 1370px) {
+  
+        .image-container1{
+        display: inline-block;
+        padding-top: 3rem;
+        margin: 2rem;
+      }
+        .image-container2 {
+          display: inline-block;
+          padding-top: 2rem;
+          margin: 4.5rem;
+        }}
+        @media (max-width: 1034px) {
+  
+          .image-container1{
+          display: inline-block;
+          padding-top: 3rem;
+          margin: 3rem;
+        }
+          .image-container2 {
+            display: inline-block;
+            padding-top: 2rem;
+            margin: 4.5rem;
+          }}
+
  @media (max-width: 767px) {
   .skills {
     text-align: center;
@@ -236,6 +323,7 @@ body {
 
 .image-container img {
   max-width: 100%;
+  object-fit: cover;
   height: auto;
 }
 /* Estilos de vista About */
