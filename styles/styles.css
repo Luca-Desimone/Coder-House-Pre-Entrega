@@ -122,11 +122,25 @@ body {
 
 .presentacion img {
   position: relative; 
-  object-fit: cover;
   padding-left: 5rem;
   height: 450px; 
   bottom: 200px;
   left: 100%; 
+}
+
+
+@media (max-width: 1700px) {
+ 
+  .presentacion img {
+    width: 500px;
+  }
+}
+@media (max-width: 1460px) {
+ 
+  .presentacion img {
+    width: 450px;
+
+  }
 }
 @media (max-width: 1370px) {
   .presentacion {
@@ -141,7 +155,8 @@ body {
   }
 
   .presentacion img {
-    left: 25%;
+    width: 400px;
+    left: 30%;
     bottom: 0;
     height:300px;
   }
