@@ -122,6 +122,7 @@ body {
 
 .presentacion img {
   position: relative; 
+  object-fit: cover;
   padding-left: 5rem;
   height: 450px; 
   bottom: 200px;
