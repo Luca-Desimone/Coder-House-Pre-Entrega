@@ -9,7 +9,7 @@
 }
 
 footer{
-  padding-top: 7rem;
+  padding-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,17 +107,17 @@ body {
 }
 /*Estilos de vista de presentacion*/
 .presentacion {
-  box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); 
   display: block;
   margin-left: 5rem;
-  margin-top: 5rem;
   width: 60%;
   height: 580px;
   padding: 8px;
   position: relative;
 }
 .presentacion p {
+  margin-top: 5rem;
   font-size: 40px;
+  color: white;
 }
 
 .presentacion img {
@@ -128,6 +128,19 @@ body {
   left: 100%; 
 }
 
+#hero{
+  min-height: 100vh;
+  position: relative;
+}
+
+video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 @media (max-width: 1700px) {
  
@@ -144,10 +157,8 @@ body {
 }
 @media (max-width: 1370px) {
   .presentacion {
-    box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); 
     display: block;
     margin-left: 5rem;
-    margin-top: 5rem;
     width: 90%;
     height: 580px;
     padding: 8px;
@@ -163,10 +174,8 @@ body {
 }
 @media (max-width: 1030px) {
   .presentacion {
-    box-shadow: 0 0 10px rgba(120, 0, 145, 0.8); 
     display: block;
     margin-left: 3rem;
-    margin-top: 5rem;
     width: 90%;
     height: 580px;
     padding: 8px;
