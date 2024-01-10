@@ -93,6 +93,7 @@ body {
   .menu-icon {
       display: block;
       position: absolute;
+      z-index: 2;
       top: 25px;
       right: 30px;
   }
@@ -103,6 +104,7 @@ body {
 
   #menu-toggle:checked + .menu-icon + .header .nav-links {
       display: flex;
+      z-index: 2;
   }
 }
 /*Estilos de vista de presentacion*/
