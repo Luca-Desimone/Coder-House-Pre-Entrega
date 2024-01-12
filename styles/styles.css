@@ -14,6 +14,7 @@ footer{
   align-items: center;
   justify-content: center;
 }
+
 .check{
   display: none;
 }
@@ -210,7 +211,7 @@ video{
   .presentacion img {
     position: static;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding-left: 0;
     left: 0;
   }
